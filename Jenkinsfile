@@ -34,7 +34,7 @@ pipeline {
                     }
 
                     if (doesVersionExist('liatrio', 'ldop-nexus', TAG)) {
-                        error("LDOP Gerrit version already exists! Aborting...")
+                        error("LDOP Nexus version already exists! Aborting...")
                     }
                 }
             }
