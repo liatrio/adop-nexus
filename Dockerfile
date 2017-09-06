@@ -1,6 +1,6 @@
 FROM sonatype/nexus:2.11.2-06
 
-MAINTAINER Robert Northard, <robert.a.northard>
+LABEL version = "0.1.6"
 
 ENV LDAP_ENABLED=true \
     CONTEXT_PATH=/nexus \
